@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*1. CUTOUT TEXT*/
+
+.cutOutText{
+    background: url('https://cdn.pixabay.com/photo/2017/09/06/23/48/lost-place-2723541_960_720.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+    font-weight:900;
+}
+
+.cutOut-title{
+    background: black;
+    color: white;
+    width: 25%;
+    padding: 20px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-size: 60px;
+    mix-blend-mode:multiply;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+
+.cutOut-title2{
+    color: black;
+    background-color: white;
+    width: 25%;
+    padding: 20px;
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    font-size: 60px;
+    mix-blend-mode:screen;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
